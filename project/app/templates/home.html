@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> hiii</h1>
+    <h1> {{msg}}</h1>
+    <center>
+        <h1>--------Home Page----------</h1>
+        <br><br>
+        <a href="{% url 'register' %}">Register</a><br><br><hr>
+        <a href="{% url 'login' %}">login</a>
+       
+    </center>
 </body>
 </html>
